@@ -1,0 +1,61 @@
+<p>
+   RJ Hotel
+
+</p>
+<div class = "TaskBar">
+    
+    <ul><li><a routerLink = "/" id="Explore">Explore</a></li></ul>
+  <ul><li><a routerLink = "/view" id="view">View</a></li></ul>
+  <ul><li><a routerLink = "/about" id="home">About Us</a></li></ul>
+  </div>
+  <div class="HomeBoder">
+    <br><br><br><br><br>
+  <div class="TaskBarr">
+  First name:<br>
+  <input type="text" class= "text" name="firstname" value="" placeholder="Firstname" [(ngModel)] = "firstname"><br>
+  Last name:<br>
+  <input type="text" class= "text" name="lastname" value="" placeholder="Surname" [(ngModel)] = "lastname"><br>
+  Email Address:<br>
+  <input type="text" class= "text" name="lastname" value="" placeholder="Surname" [(ngModel)] = "email"><br>
+     
+      Comment:<br>
+      <input type="text" class="text" name="textarea" value="" placeholder="Comment here" style="height:100px"   ><br><br>
+  
+      <input class="submit" type="submit" (click)="onlogin()" value="Comment" style="width:280px" >
+      <!-- <label for="subject">Subject</label><br>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br> -->
+  
+      
+  
+  </div>
+  <fieldset><legend>About Us</legend>
+  <div class="cont">
+      <h2>About Us</h2>
+      <h3>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</h3>
+      <h2>Where?</h2>
+      <h3>On the north of the Pretoria, north of the city La Spezia.</h3>
+      <h2>Price?</h2>
+      <h3>The Walk is free!</h3>
+    </div>
+    </fieldset>
+  
+  <div class = "FormBoader">
+    <div class="log">
+      <h6>You can find us here</h6>
+      
+      <img src="../../../assets/face.png" alt="face" width="2%" height="1%" n>
+      <img src="../../../assets/whatsapp.jpg" alt="face" width="2%" height="1%">
+      <img src="../../../assets/Twitter_png.png" alt="face" width="2%" height="1%">
+      <img src="../../../assets/inst.jpg" alt="face" width="2%" height="1%">
+      
+  
+    </div>
+    
+    
+    
+  
+    
+    <footer>Created By Mag-RJ</footer>
+  
+  </div>
+  <router-outlet></router-outlet>

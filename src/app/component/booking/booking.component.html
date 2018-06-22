@@ -1,0 +1,45 @@
+<header>
+  <div class = "head">
+    <p > RJ Hotel</p>
+  </div>
+</header>
+<div class="TaskBar">
+  <div class="row">
+
+    <ul class="nav nav-pills"> 
+  
+    <ul><li routerLinkActive="active" ><a routerLink ="/Booking">Booking</a></li></ul>
+      <ul><li routerLinkActive="active"><a routerLink ="/view">View</a></li></ul>
+        <ul><li routerLinkActive="active"><a routerLink ="/about">About Us</a></li></ul>
+    </ul>
+    </div>
+    </div>
+
+    <div class = "FormBoader"><br><br><br><br><br><br><br><br><br>
+    
+      First name:<br>
+      <input type="text" class= "text" name="firstname" value="" placeholder="Firstname" [(ngModel)] = "firstname"><br>
+      Last name:<br>
+      <input type="text" class= "text" name="lastname" value="" placeholder="Surname" [(ngModel)] = "lastname"><br>
+      Arrival Date:<br>
+      <input type="date" class= "text" name="date" value="date" placeholder="yyyy/mm/dd" [(ngModel)] = "Arrival"><br>
+      Departure date: <br>
+      <input type="date" class= "text" name="date" value="date" placeholder="yyyy/mm/dd" ng-model = "Departure"><br>
+      Email Address: <br>
+      <input type="text" class= "text" name="email" value="" placeholder="Email" [(ngModel)] = "email"><br>
+      <!-- <form name="myForm" action="demo_form.asp"
+onsubmit="return validateForm()" method="post">
+Name: <input type="text" name="fname">
+<input type="submit" value="Submit"> -->
+      
+      <br>
+ 
+
+   
+<input class="submit" type="submit" (click)="onlogin()" value="Submit" style="width:280px">
+
+</div>
+<footer>Created By Mag-RJ</footer>
+
+
+<router-outlet></router-outlet>

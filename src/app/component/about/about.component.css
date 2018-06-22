@@ -1,0 +1,55 @@
+fieldset{
+    margin-right: 40pc;
+    margin-left: 40pc;
+    margin-top: 20pc;
+    background: url(C:\Users\CodeTribe\Desktop\inside.jpg);
+    background-size: cover;
+    width: 20pc;
+    height: 25pc;
+    color: white;
+    
+}
+text { 
+ 
+
+    border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    border-radius: 30px; 
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+    padding-left:10px; 
+    padding-right:10px; 
+  } 
+  fieldset{
+      
+      margin-top: 1em;
+      margin-right: 60%;
+      margin-left: 80%;
+
+      
+      
+  }
+  log{
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 30px;
+   
+      
+  }
+  h6{
+    font-family: cursive;
+    color: crimson;
+  }
+  cont {
+    
+   position: absolute;
+   right: 0px;
+   width: 300px;
+   border: 3px solid #73AD21;
+   padding: 10px;
+} 
+  
+  
+  

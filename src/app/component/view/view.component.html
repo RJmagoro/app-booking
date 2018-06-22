@@ -1,0 +1,35 @@
+<p>
+  RJ Hotel
+
+</p>
+<div class = "TaskBar">
+        
+    <ul><li><a routerLink = "/booking" id="Booking">Booking</a></li></ul>
+  <ul><li><a routerLink = "/" id="view">Explore</a></li></ul>
+  <ul><li><a routerLink = "/about" id="about">about Us</a></li></ul>
+</div>
+<div class="HomeBoder">
+    <div class="center">
+        <br>
+        <br>
+        <br>
+        
+        <p>First name: {{firstname}}</p>
+        <p>Last name : {{lastname}}</p>
+        <p>Arrival   : {{arrival}}</p>
+        <p>Departure : {{departure}}</p>
+        <p>Email     : {{email}}</p>
+
+        
+
+        
+        
+    </div>
+    <input class="submit" type="submit" (click)="onlogin()" value="Review" style="width:280px">
+  
+</div>
+<div class = "FormBoader">
+    <footer>Created By Mag-RJ</footer>
+
+  </div>
+  <router-outlet></router-outlet>

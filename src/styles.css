@@ -1,0 +1,191 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    text-align: center;
+    background: url(C:\Users\CodeTribe\Desktop\hotl.jpg );
+    background-size: cover;
+     
+    font-family: cursive;
+    
+    
+    
+    
+    
+    
+}
+head{
+    color: blue;
+}
+
+ /* p{
+    align-content: center;
+    background-color: lightseagreen;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font: bold;
+    text-decoration-color: chocolate;
+    -moz-text-decoration-color: blue;
+    color: white;
+    text-shadow: 2px 2px blue;
+    
+}  */
+button{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border: none;
+    color: rgb(156, 8, 8);
+    padding: 0px 0;
+    float: right;
+    
+    
+       
+       
+    }
+    /* body{
+        background-color: antiquewhite;
+        
+    } */
+    .text { 
+ 
+
+    border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    border-radius: 30px; 
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+    padding-left:10px; 
+    padding-right:10px; 
+  } 
+
+        
+      
+      input.submit {
+        display: inline-block;
+        cursor: pointer;
+        color: #FFFFFF;
+        padding: 9px 18px;
+        font-family: Arial;
+        font-size: 16px;
+        border-radius: 5px;
+        background: linear-gradient(180deg, #ff8c00 5%, #ce7910 100%);
+        box-shadow: 0px 10px 14px -7px #616174;
+    }
+    input.submit:hover {
+        background: linear-gradient(180deg, #06049e 5%, #060490 100%);
+    }
+    input.submit:active {
+        position: relative;
+        top: 1px;
+        width: 100%;
+    }
+    .textbox{
+        background-color: aquamarine;
+        text-decoration-color: black;
+        text-size-adjust: 50%;
+            
+    }
+    h1{
+        align-content: center;
+    background-color: lightseagreen;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 20px;
+    font: bold;
+    text-decoration-color: chocolate;
+    -moz-text-decoration-color: blue;
+    box-shadow: white;
+    }
+    /* .nav{
+        text-align: right;
+        width: 100%;
+        margin: 10px;
+        height:50px ;
+        background-color:cornflowerblue;
+        box-shadow: 5px 5px 5px lightblue,5px 5px 5px lightblue;
+    }  */
+    a:link{
+        color:yellow;
+    }
+    a:visited{
+        color:white;
+    
+    }
+    .nav ul li a:hover{
+        color: hotpink;
+        background-color:lightcyan;
+    
+    }
+    a:active{
+        color:blue;
+       
+    }
+    footer{
+        border: 1px groove black;
+        background:cornflowerblue;
+        color:springgreen;
+        bottom: 0px;
+        width: 100%;
+        position: fixed;
+        vertical-align: middle;
+        text-align: center;
+        line-height: normal;
+        padding: 0;
+        
+    
+    }
+    .TaskBar{
+        margin-top: 0em;
+        height: 3em;
+        color: white;
+        font-size: 1em;
+        background-color:cornflowerblue;
+        
+        box-shadow: 5px 5px 5px lightblue,5px 5px 5px lightblue;
+    }
+        /* .head{
+            width: 100%;  
+            background-color: rgb(255, 255, 255);
+            height: 3em;
+            margin-top: 0em;
+        }  */
+        li,ul {
+            float:left; 
+            list-style-type: none;
+            position: relative;
+            left: -10;
+            color: white;
+          
+            }
+            /* fieldset{
+                background: url(../src/assets/bed.jpg);
+                
+                align-content:center;
+               
+                
+            } */
+            legend{
+                text-align: center;
+                text-shadow: aqua;
+                color: whitesmoke;
+                text-decoration-color: brown;
+                font-family: 'Times New Roman';
+            }
+            
+            
+            
+       
+            
+        
+            
+            
+            
+
+
+
+
+
+            
+        
+
