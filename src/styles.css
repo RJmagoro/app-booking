@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     text-align: center;
-    background: url(C:\Users\CodeTribe\Desktop\hotl.jpg );
+    background: url(../src/assets/hotl.jpg );
     background-size: cover;
      
     font-family: cursive;
